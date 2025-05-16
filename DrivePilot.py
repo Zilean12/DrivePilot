@@ -12,7 +12,7 @@ import os
 import GUItest01
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\aryan\OneDrive - st.niituniversity.in\Photography\Assignment 3 (10Dec)\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"\build\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:
