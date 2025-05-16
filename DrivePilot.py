@@ -20,13 +20,13 @@ def relative_to_assets(path: str) -> Path:
 
 # connecting to upload python file
 def upload():
-    from upload import Uploaded  # Import here to avoid global import
+    from upload import Uploaded  
     new_window = root
     app = Uploaded(new_window)
 
 #  connecting to the download file
 def download():
-    from Download import Downloads  # Import here to avoid global import
+    from Download import Downloads 
     creds = None
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
@@ -35,7 +35,7 @@ def download():
 
 # connecting to delete 
 def Delete():
-    from Delete import Deleteds  # Import here to avoid global import
+    from Delete import Deleteds 
     creds = None
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
@@ -44,19 +44,19 @@ def Delete():
 
 # connecting to View 
 def View():
-    from View import viewers  # Import here to avoid global import
-    new_window = Toplevel(window)  # Use 'window' instead of 'root'
-    app = viewers(new_window) # Use 'window' instead of 'root'
-
+    from View import viewers  
+    new_window = Toplevel(window)  
+    app = viewers(new_window) 
+    
 # connecting to file Detail 
 def fileDetail():
-    from fileDetail import Detail  # Import here to avoid global import
+    from fileDetail import Detail  
     new_window = root
     app = Detail(new_window)
 
 # connecting to Share 
 def Share():
-    from Share import Sender  # Import here to avoid global import
+    from Share import Sender  
     creds = None
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
@@ -65,31 +65,31 @@ def Share():
 
 # connecting to Search 
 def Search():
-    from Search import Finder  # Import here to avoid global import
+    from Search import Finder  
     new_window = root
     app = Finder(new_window)
 
 # connecting to Activity 
 def Activity():
-    from Activity import loger  # Import here to avoid global import
+    from Activity import loger  
     new_window = root
     app = loger(new_window)
 
 # connecting to List 
 def List():
-    from List import lists  # Import here to avoid global import
+    from List import lists 
     new_window = root
     app = lists(new_window)
 
 # connecting to Floder 
 def FolderDetail():
-    from FolderDetail import fold  # Import here to avoid global import
+    from FolderDetail import fold  
     new_window = root
     app = fold(new_window)
 
 # connecting to Account 
 def Account():
-    from Account import AccountDE  # Import here to avoid global import
+    from Account import AccountDE 
     creds = None
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
@@ -98,19 +98,19 @@ def Account():
 
 # connecting to Storage 
 def Storage():
-    from Storage import Storages  # Import here to avoid global import
+    from Storage import Storages  
     new_window = root
     app = Storages(new_window)
 
 # connecting to History 
 def History():
-    from History import Hist  # Import here to avoid global import
+    from History import Hist  
     new_window = root
     app = Hist(new_window)
 
 # Access to ur location 
 def location():
-    from location import IPInfo  # Import here to avoid global import
+    from location import IPInfo  
     new_window = root
     app = IPInfo(new_window)
 
