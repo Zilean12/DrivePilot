@@ -1,9 +1,7 @@
 # DrivePilot
 
 ![GitHub stars](https://img.shields.io/github/stars/Zilean12/DrivePilot?style=social)
-![GitHub license](https://img.shields.io/github/license/Zilean12/DrivePilot)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![Last Commit](https://img.shields.io/github/last-commit/Zilean12/DrivePilot)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 A friendly, lightweight toolkit to integrate Python with Google Drive — upload, download, update files, and manage folders programmatically with clear examples and helpful utilities. 🚀
@@ -24,8 +22,6 @@ A friendly, lightweight toolkit to integrate Python with Google Drive — upload
 - [Troubleshooting](#troubleshooting)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Project Overview
@@ -151,11 +147,6 @@ Contributions, issues and feature requests are welcome! Please open an issue or 
 3. Commit your changes (`git commit -m 'feat: add YourFeature'`)
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
 ---
 
 If this project helps you, consider giving it a ⭐!
